@@ -8,11 +8,11 @@ class Vektor():
         # betrag
     def betrag(self):
         betrag = (math.sqrt((self.x**2)+(self.y**2)+(self.z**2)))
-        return(betrag)
+        return betrag
         # skalarprodukt
     def skalar(self,vektor2):
         skalar = ((self.x * vektor2.x) + (self.y * vektor2.y) + (self.z * vektor2.z))
-        return(skalar)
+        return skalar
         # kreuzprodukt
     def kreuz(self,vektor3):
         vektor3.x = ((self.y * vektor2.z)-(self.z * vektor2.y))
